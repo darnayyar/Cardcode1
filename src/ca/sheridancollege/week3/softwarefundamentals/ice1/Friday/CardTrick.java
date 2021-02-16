@@ -20,7 +20,8 @@ public class CardTrick {
      c2.setSuit("Hearts");  
      c2.setValue(7);
      for (Card c: card){
-         
+            System.out.println(c.getSuit());
+         System.out.println(c.getValue());
      }
      
     }
